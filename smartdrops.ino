@@ -14,7 +14,7 @@ const char* walletEndpoint = "/meter/wallet-balance/";
 
 // Meter configuration
 const String meterNumber = "MTR-DQBTSWJT"; // Change to your meter number
-const float shutoffThreshold = 500.00; // Shutoff if balance below 1000 UGX
+const float shutoffThreshold = 0.00; // Shutoff if balance below 0 UGX
 const float calibrationFactor = 4.5; // From uploaded code
 
 // Pin configuration
